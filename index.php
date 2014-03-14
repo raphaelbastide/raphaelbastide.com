@@ -11,14 +11,17 @@
   <body>
 
 <?php
-$dir    = 'public/v';
-$cleanDirs = array_diff(scandir($dir), array('..', '.'));
-print_r($cleanDirs);
-
 
 require_once('lib/Git.php');
 $repo = Git::open('');
 
+echo "Tags:<br>";
+$tags = $repo->list_tags();
+foreach ($tags as $tag) {
+    echo $tag."<br>";
+}
+
+echo "<br>Branches:<br>";
 $branches = $repo->list_branches();
 foreach ($branches as $branch) {
     echo $branch;
