@@ -1,0 +1,13 @@
+body{
+  padding:2%;
+  font:22px/28px serif;
+}
+
+.images{
+  background: gray;
+  width: 400px;
+  height: 500px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
