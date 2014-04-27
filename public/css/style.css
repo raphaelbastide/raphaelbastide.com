@@ -4,10 +4,13 @@ body{
 }
 
 .images{
-  background: gray;
-  width: 400px;
-  height: 500px;
+  width: 500px;
   position: fixed;
   top: 0;
   right: 0;
+}
+
+.images img{
+  width: 100%;
+  height:auto;
 }
