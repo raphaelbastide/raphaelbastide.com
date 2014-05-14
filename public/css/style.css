@@ -7,17 +7,12 @@ blockquote:before,blockquote:after,q:before,q:after{content:none}
 table{border-collapse:collapse;border-spacing:0}
 
 body{
-  font-family: liberation sans narrow;
   padding:2%;
-  font:22px/28px georgia, serif;
-}
-
-.recent{
-  background: #eee;
+  font:20px/28px 'Computer Modern Concrete', monospace;
 }
 
 header{
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 }
 header p{
   margin-bottom: .8em;
@@ -31,13 +26,32 @@ section{
   margin-bottom: 1.2em;
 }
 
+section.recent{
+  padding-left: 70px;
+  margin-left: 0px;
+  position: relative;
+}
+
+section.recent:before{
+  content:" ";
+  display: block;
+  width: 3em;
+  border-top: 1px solid red;
+  height: 1px;
+  position: absolute;
+  top: .6em;
+  left: 0;
+}
+
 a{
   color:inherit;
 }
-
+em{
+  font-style: italic;
+}
 time{
-  font-size: .6em;
-  font-family: monospace;
+  font-size: .8em;
+  font-family: 'Whoismono', monospace;
 }
 
 .images{

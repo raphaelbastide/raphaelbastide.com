@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Raphaël Bastide</title>
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="public/font/stylesheet.css">
@@ -12,7 +11,7 @@
   <body>
     <header>
         <p>Raphaël Bastide</p>
-        <p>Art, code and graphic design.<br/>Lives and Works in Paris.<br/>Uses, design and modify free software and alternative tools.</p>
+        <p>Art, code and graphic design.<br/>Lives and Works in Paris.<br/>Uses, designs and modifies free software and alternative tools.</p>
         <p><a href="mailto:bonjour@raphaelbastide.com">Email</a> - <a href="http://raphaelbastide.com/keys/pgpkey.txt">PGP</a> - <a href="http://eepurl.com/o-nJj">Newsletter</a> - <a href="http://twitter.com/raphaelbastide">Twitter</a> - <a href="https://github.com/raphaelbastide/">GitHub</a> - <a href="http://raphaelbastide.com/keys/bitcoin.txt">Bitcoin Adress</a><p>
     </header>
     <main>
@@ -31,7 +30,7 @@
         <time>2014 March</time>
       </section>
       <section id="revisable-1">
-        <p>Personal exhibition <a href="http://raphaelbastide.com/revisables/">Révisable B</a> at iMAL, Brussels.</p>
+        <p>Personal exhibition <a href="http://raphaelbastide.com/revisables/">Révisable 1</a> at iMAL, Brussels.</p>
         <time>2013 August</time>
       </section>
       <section id="branch">
@@ -39,7 +38,7 @@
         <time>2013 February</time>
       </section>
       <section id="volumes">
-        <p>Exhibition “Volumes” with <a href="http://kevinbray.biz/">Kevin Bray</a> at 22 Rue Muller, Paris.</p>
+        <p>Exhibition Volumes with <a href="http://kevinbray.biz/">Kevin Bray</a> at 22 Rue Muller, Paris.</p>
         <time>2012 November</time>
       </section>
       <section id="parallax">
@@ -71,8 +70,8 @@
       data-cycle-swipe="true"
       data-cycle-swipe-fx="scrollHorz"
       data-cycle-pause-on-hover="true"
-      data-cycle-timeout="5000"
-      data-cycle-speed="100">
+      data-cycle-timeout="7000"
+      data-cycle-speed="70">
       <?
       $directory = "public/projects/";
       $images = glob($directory."{*.jpg,*.jpeg,*.gif,*.png,*.svg}", GLOB_BRACE);

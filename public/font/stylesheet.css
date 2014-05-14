@@ -13,3 +13,50 @@
     font-style: normal;
 
 }
+
+@font-face {
+	font-family: 'Computer Modern Concrete';
+	src: url('computer-modern/cmunorm.eot');
+	src: url('computer-modern/cmunorm.eot?#iefix') format('embedded-opentype'),
+		 url('computer-modern/cmunorm.woff') format('woff'),
+		 url('computer-modern/cmunorm.ttf') format('truetype'),
+		 url('computer-modern/cmunorm.svg#cmunorm') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Concrete';
+	src: url('computer-modern/cmunobx.eot');
+	src: url('computer-modern/cmunobx.eot?#iefix') format('embedded-opentype'),
+		 url('computer-modern/cmunobx.woff') format('woff'),
+		 url('computer-modern/cmunobx.ttf') format('truetype'),
+		 url('computer-modern/cmunobx.svg#cmunobx') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Concrete';
+	src: url('computer-modern/cmunoti.eot');
+	src: url('computer-modern/cmunoti.eot?#iefix') format('embedded-opentype'),
+		 url('computer-modern/cmunoti.woff') format('woff'),
+		 url('computer-modern/cmunoti.ttf') format('truetype'),
+		 url('computer-modern/cmunoti.svg#cmunoti') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Concrete';
+	src: url('computer-modern/cmunobi.eot');
+	src: url('computer-modern/cmunobi.eot?#iefix') format('embedded-opentype'),
+		 url('computer-modern/cmunobi.woff') format('woff'),
+		 url('computer-modern/cmunobi.ttf') format('truetype'),
+		 url('computer-modern/cmunobi.svg#cmunobi') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
