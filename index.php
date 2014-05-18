@@ -62,7 +62,7 @@
         <time>2008, ongoing</time>
       </section>
     </main>
-    <div class="images cycle-slideshow" 
+    <div id="foo" class="images cycle-slideshow" 
       data-cycle-loader="true"
       data-cycle-random="true"
       data-cycle-log="false"
@@ -80,12 +80,13 @@
         $info = pathinfo($img);
         $imageName =  basename($img,'.'.$info['extension']);
         list($width, $height, $type, $attr)= getimagesize($img);
-        echo "<img src='$img' class='cycle-next ".$imageName."' width='$width' height='$height' /> \n";
+        echo "<img src='$img' id='".$imageName."-img' class='cycle-next' width='$width' height='$height' /> \n";
       }
       ?>
     </div>
     <script src='public/js/jquery.js'></script>
     <script src='public/js/cycle.js'></script>
+    <script src='public/js/jquery.jsPlumb-1.4.0-all.js'></script>
     <script src='public/js/main.js'></script>
   </body>
 </html>
