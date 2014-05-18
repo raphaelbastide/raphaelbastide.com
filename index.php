@@ -62,10 +62,10 @@
         <time>2008, ongoing</time>
       </section>
     </main>
-    <div id="foo" class="images cycle-slideshow" 
+    <div class="images cycle-slideshow" 
       data-cycle-loader="true"
       data-cycle-random="true"
-      data-cycle-log="false"
+      data-cycle-log="true"
       data-cycle-fx="fadeout"
       data-cycle-swipe="true"
       data-cycle-swipe-fx="scrollHorz"
