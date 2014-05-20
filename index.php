@@ -62,7 +62,7 @@
         <time>2008, ongoing</time>
       </section>
     </main>
-    <div class="images cycle-slideshow" 
+    <div class="images cycle-slideshow cycle-next" 
       data-cycle-loader="true"
       data-cycle-random="true"
       data-cycle-log="true"
@@ -71,18 +71,24 @@
       data-cycle-swipe-fx="scrollHorz"
       data-cycle-pause-on-hover="true"
       data-cycle-timeout="7000"
+      data-cycle-loader=true
+      data-cycle-progressive="#loader"
+      data-cycle-next=".cycle-next"
       data-cycle-speed="70">
-      <?
-      $directory = "public/projects/";
-      $images = glob($directory."{*.jpg,*.jpeg,*.gif,*.png,*.svg}", GLOB_BRACE);
-      natsort($images);
-      foreach ($images as $img) {
-        $info = pathinfo($img);
-        $imageName =  basename($img,'.'.$info['extension']);
-        list($width, $height, $type, $attr)= getimagesize($img);
-        echo "<img src='$img' id='".$imageName."-img' class='cycle-next' width='$width' height='$height' /> \n";
-      }
-      ?>
+<!--      <img src='public/projects/40.jpg' id='40-img' class='cycle-next' width='1200' height='803' />
+       <script id="loader" type="text/cycle">-->
+        <?
+        $directory = "public/projects/";
+        $images = glob($directory."{*.jpg,*.jpeg,*.gif,*.png,*.svg}", GLOB_BRACE);
+        natsort($images);
+        foreach ($images as $img) {
+          $info = pathinfo($img);
+          $imageName =  basename($img,'.'.$info['extension']);
+          list($width, $height, $type, $attr)= getimagesize($img);
+          echo "<img src='$img' id='".$imageName."-img' class='".$imageName."-img' width='$width' height='$height' /> \n";
+        }
+        ?>
+<!--   </script>-->
     </div>
     <script src='public/js/jquery.js'></script>
     <script src='public/js/cycle.js'></script>
