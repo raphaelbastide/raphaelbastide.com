@@ -8,7 +8,7 @@ function doPlumb(from, to){
     var mainLinks = jsPlumb.getInstance({
       PaintStyle:{ 
         lineWidth:1, 
-        strokeStyle:"red"
+        strokeStyle:"#ccc"
       },
       Connector:[ "Straight", { stub: 0 } ],
       Endpoint:"Blank"
@@ -20,7 +20,7 @@ function doPlumb(from, to){
       anchor:["LeftMiddle", "TopLeft"]
     });
 
-    $('.cycle-slideshow').on('cycle-next', function() {
+    $('.cycle-slideshow').on('cycle-after', function() {
       mainLinks.reset();
     });
     
@@ -28,15 +28,18 @@ function doPlumb(from, to){
 }
 
 
-$( '.cycle-slideshow' ).on( 'cycle-next', function() {
+$( '.cycle-slideshow' ).on( 'cycle-after', function() {
   var currImgId = $('.cycle-slide.cycle-slide-active').attr('id'),
-      currTxtId = currImgId.replace('-img',''),
+      // Regex pattern to escape "-"+"digit" as in "branch-2"" : /[-]\d+\b/g
+      currTxtId = currImgId.replace(/[-]\d+\b/g,'').replace('-img',''),
+      cleanImgId = currImgId.replace(/[-]\d+\b/g,''),
       currImg = "$('."+currImgId+"'')",
-      currTxt = "$('."+currTxtId+"'')";
+      currTxt = "$('#"+currTxtId+"'')";
 
   if(currImgId.length > 0 && currTxtId.length > 0){
-    console.log(currTxtId, currImgId)
+    console.log(currTxtId, cleanImgId)
     setTimeout(function(){ doPlumb(currTxtId,$(".images"));},100);
 
+    
   }
 });
