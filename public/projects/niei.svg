@@ -13,8 +13,8 @@
    height="210.90625"
    id="svg3604"
    version="1.1"
-   inkscape:version="0.48.1 r9760"
-   sodipodi:docname="logo_niei.svg">
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="niei.svg">
   <defs
      id="defs3606" />
   <sodipodi:namedview
@@ -24,21 +24,22 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="418.75168"
-     inkscape:cy="179.89897"
+     inkscape:zoom="2.8"
+     inkscape:cx="129.94226"
+     inkscape:cy="104.88105"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1440"
-     inkscape:window-height="852"
+     inkscape:window-height="873"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     inkscape:snap-page="true" />
   <metadata
      id="metadata3609">
     <rdf:RDF>
@@ -56,9 +57,25 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-250.28125,-420.71875)">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:6.68300009000000017;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3149"
+       width="243.53125"
+       height="210.90625"
+       x="0"
+       y="0"
+       transform="translate(250.28125,420.71875)" />
+    <rect
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3150"
+       width="243.53125"
+       height="210.90625"
+       x="0"
+       y="0"
+       transform="translate(250.28125,420.71875)" />
     <g
        id="g3955"
-       transform="translate(-5.0956138,30.961766)">
+       transform="matrix(0.90476741,0,0,0.90476741,30.820649,78.121912)">
       <g
          transform="matrix(1.25,0,0,-1.25,321.31348,591.9187)"
          id="g3083"
