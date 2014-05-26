@@ -34,24 +34,6 @@ p{
   -o-transform:scale(1,1.09);
   transform-origin: 0 0;
 }
-/*
-section.recent{
-  padding-left: 70px;
-  margin-left: 0px;
-  position: relative;
-}
-
-section.recent:before{
-  content:" ";
-  display: block;
-  width: 3em;
-  border-top: 1px solid red;
-  height: 1px;
-  position: absolute;
-  top: .6em;
-  left: 0;
-}
-*/
 
 a{
   color:inherit;
@@ -83,14 +65,40 @@ time{
 
 #jsplumbContainer { z-index:0; margin-top:100px; }
 #mask { 
-    z-index:10; 
-height: 100px;
-    position:absolute;
-    width:100%;
-    top:0px;
-    background-color:white;
+  z-index:10; 
+  height: 100px;
+  position:absolute;
+  width:100%;
+  top:0px;
+  background-color:white;
 }
 ._jsPlumb_connector { z-index:5; }
+
+@media only screen and (max-width: 1200px) {
+  .images{
+    width: 100%;
+    max-width: 500px;
+    position:static;    
+  }
+  main{
+    width: 90%;
+  }
+}
+@media only print {
+  body{
+    font:10pt/12pt 'linux_libertine', serif;
+  }
+  main a:link:after, main a:visited:after{
+    content:" " attr(href) " ";
+    border: none;
+    font-size: .6em;
+  }
+  .images{
+    display: none;
+  }
+
+}
+
 
 :-moz-any-link:focus {background:#f5f5f5; outline:0;}
 ::selection {background:#eee;}

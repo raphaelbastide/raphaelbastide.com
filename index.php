@@ -6,22 +6,23 @@
     <title>Raphaël Bastide</title>
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="public/css/style.css">
+    <link rel="shortcut icon" href="public/img/favicon.gif"/>
     <link rel="stylesheet" href="public/font/stylesheet.css">
   </head>
   <body>
-    <header>
-        <p>Raphaël Bastide</p>
-        <p>Art, code and graphic design.<br/>Lives and Works in Paris.<br/>Uses, designs and modifies free software and alternative tools.</p>
-        <p><a href="mailto:bonjour@raphaelbastide.com">Email</a> - <a href="http://raphaelbastide.com/keys/pgpkey.txt">PGP</a> - <a href="http://eepurl.com/o-nJj">Newsletter</a> - <a href="http://twitter.com/raphaelbastide">Twitter</a> - <a href="https://github.com/raphaelbastide/">GitHub</a> - <a href="http://raphaelbastide.com/keys/bitcoin.txt">Bitcoin Adress</a><p>
-    </header>
     <main>
+      <header>
+        <p>Raphaël Bastide</p>
+          <p>Art, code and graphic design.<br/>Lives and Works in Paris.<br/>Uses, designs and modifies free software and alternative tools.</p>
+          <p><a href="mailto:bonjour@raphaelbastide.com">Email</a> - <a href="http://raphaelbastide.com/keys/pgpkey.txt">PGP</a> - <a href="http://eepurl.com/o-nJj">Newsletter</a> - <a href="http://twitter.com/raphaelbastide">Twitter</a> - <a href="https://github.com/raphaelbastide/">GitHub</a> - <a href="http://raphaelbastide.com/keys/bitcoin.txt">Bitcoin Adress</a><p>
+      </header>
       <section class="recent" id="usemodify">
         <p><a href="http://usemodify.com/">Use & Modify</a> is a libre font list I curate.</p>
       </section>
       <section class="recent" id="ofont">
         <p><a href="http://ofont.net/">ofont</a> is an online tool for font classification. <a href="https://github.com/raphaelbastide/ofont">Download</a> the sources on GitHub.</p>
       </section>
-      <section class="recent" id="esad-2014">
+      <section class="recent" id="esad2014">
         <p>Workshop ESAD Valence <a href="http://raphaelbastide.com/esad2014/">Objets Versionnés</a>.</p>
         <time>2014 April</time>
       </section>
@@ -29,7 +30,7 @@
         <p>Talk at Libre Graphics Meeting: <a href="#usemodify">Use & Modify</a>.</p>
         <time>2014 March</time>
       </section>
-      <section id="revisable-1">
+      <section id="revisable1">
         <p>Personal exhibition <a href="http://raphaelbastide.com/revisables/">Révisable 1</a> at iMAL, Brussels.</p>
         <time>2013 August</time>
       </section>
@@ -45,8 +46,16 @@
         <p>Dirty Web design workshop <a href="http://raphaelbastide.com/parallax/">Parallax</a> at Festival de l’Affiche et du Graphisme in Chaumont, France.</p>
         <time>2012 June</time>
       </section>
+      <section id="1962">
+        <p><a href="http://raphaelbastide.com/1962/">1962</a></p>
+        <time>2012 February</time>
+      </section>
+      <section id="skypapers">
+        <p><a href="http://lab.raphaelbastide.com/skypapers/">Skypapers</a></p>
+        <time>2011 October</time>
+      </section>
       <section id="digimp">
-        <p>Graphic improvisations using <a href="http://raphaelbastide.com/digimp/">DIGIMP</a>.</p>
+        <p>Graphic improvisations using <a href="http://raphaelbastide.com/digimp/">DIGIMP</a></p>
         <time>2009</time>
       </section>
       <section id="screen-over-book">
@@ -65,7 +74,7 @@
     <div class="images cycle-slideshow cycle-next" 
       data-cycle-loader="true"
       data-cycle-random="true"
-      data-cycle-log="true"
+      data-cycle-log="false"
       data-cycle-fx="fadeout"
       data-cycle-swipe="true"
       data-cycle-swipe-fx="scrollHorz"
@@ -75,8 +84,8 @@
       data-cycle-progressive="#loader"
       data-cycle-next=".cycle-next"
       data-cycle-speed="70">
-<!--      <img src='public/projects/40.jpg' id='40-img' class='cycle-next' width='1200' height='803' />
-       <script id="loader" type="text/cycle">-->
+<!--  <img src='public/projects/40.jpg' id='40-img' class='cycle-next' width='1200' height='803' />
+      <script id="loader" type="text/cycle">-->
         <?
         $directory = "public/projects/";
         $images = glob($directory."{*.jpg,*.jpeg,*.gif,*.png,*.svg}", GLOB_BRACE);
