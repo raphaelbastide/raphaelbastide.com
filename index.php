@@ -13,6 +13,7 @@
     <main>
       <header>
         <p>Raphaël Bastide</p>
+        <img src="public/img/favicon-paused.gif">
           <p>Art, code and graphic design.<br/>Lives and Works in Paris.<br/>Uses, designs and modifies free software and alternative tools.</p>
           <p><a href="mailto:bonjour@raphaelbastide.com">Email</a> - <a href="http://raphaelbastide.com/keys/pgpkey.txt">PGP</a> - <a href="http://eepurl.com/o-nJj">Newsletter</a> - <a href="http://twitter.com/raphaelbastide">Twitter</a> - <a href="https://github.com/raphaelbastide/">GitHub</a> - <a href="http://raphaelbastide.com/keys/bitcoin.txt">Bitcoin Adress</a><p>
       </header>
@@ -30,6 +31,10 @@
         <p>Talk at Libre Graphics Meeting: <a href="#usemodify">Use & Modify</a>.</p>
         <time>2014 March</time>
       </section>
+      <section id="steps-mono">
+        <p><a href="https://github.com/raphaelbastide/Whois-mono/">Steps Mono</a> designed with <a href="http://cargocollective.com/jbmrz">JB Morizot</a> (Open Font License)</p>
+        <time>2014</time>
+      </section>
       <section id="revisable1">
         <p>Personal exhibition <a href="http://raphaelbastide.com/revisables/">Révisable 1</a> at iMAL, Brussels.</p>
         <time>2013 August</time>
@@ -43,7 +48,11 @@
         <time>2012 November</time>
       </section>
       <section id="parallax">
-        <p>Dirty Web design workshop <a href="http://raphaelbastide.com/parallax/">Parallax</a> at Festival de l’Affiche et du Graphisme in Chaumont, France.</p>
+        <p>Dirty Web design workshop <a href="http://raphaelbastide.com/parallax/">Parallax</a> at Festival de l’Affiche et du Graphisme in Chaumont, France</p>
+        <time>2012 June</time>
+      </section>
+      <section id="whois-mono">
+        <p><a href="https://github.com/raphaelbastide/Whois-mono/">Whois Mono</a> (Open Font License)</p>
         <time>2012 June</time>
       </section>
       <section id="1962">
