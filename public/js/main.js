@@ -17,7 +17,7 @@ function doPlumb(from, to){
     mainLinks.connect({
       source: from, 
       target: to,
-      anchor:[.1, .2, 0, .5]
+      anchor:[.1, .2, 0, 0]
     });
 
     $('.cycle-slideshow').on('cycle-after', function() {
@@ -44,3 +44,12 @@ function connect(){
 $( '.cycle-slideshow' ).on( 'cycle-after', function() {
   connect();
 });
+var pageTitle = $(document).attr('title');
+
+$( '.cycle-slideshow' ).on( 'cycle-paused', function() {
+  $('link[rel="shortcut icon"]').attr('href','public/img/favicon-paused.gif');
+});
+$( '.cycle-slideshow' ).on( 'cycle-resumed', function() {
+  $('link[rel="shortcut icon"]').attr('href','public/img/favicon.gif');
+});
+

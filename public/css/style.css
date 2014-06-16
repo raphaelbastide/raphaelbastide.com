@@ -47,8 +47,8 @@ em{
   font-style: italic;
 }
 time{
-  font-size: .8em;
-  font-family: 'linux_libertine_mono', 'Whoismono', monospace;
+  font-size: .6em;
+  font-family: verdana, 'Whoismono', monospace;
 }
 
 .images{
