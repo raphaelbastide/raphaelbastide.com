@@ -12,72 +12,77 @@
   <body>
     <main>
       <header>
-        <p>Raphaël Bastide</p>
-        <img src="public/img/favicon-paused.gif">
+        <h1>Raphaël Bastide</h1>
           <p>Art, code and graphic design.<br/>Lives and Works in Paris.<br/>Uses, designs and modifies free software and alternative tools.</p>
-          <p><a href="mailto:bonjour@raphaelbastide.com">Email</a> - <a href="http://raphaelbastide.com/keys/pgpkey.txt">PGP</a> - <a href="http://eepurl.com/o-nJj">Newsletter</a> - <a href="http://twitter.com/raphaelbastide">Twitter</a> - <a href="https://github.com/raphaelbastide/">GitHub</a> - <a href="http://raphaelbastide.com/keys/bitcoin.txt">Bitcoin Adress</a><p>
+          <p><a href="mailto:bonjour@raphaelbastide.com">Email</a> - <a href="http://raphaelbastide.com/keys/pgp.txt">PGP</a> - <a href="http://eepurl.com/o-nJj">Newsletter</a> - <a href="http://twitter.com/raphaelbastide">Twitter</a> - <a href="https://github.com/raphaelbastide/">GitHub</a> - <a href="http://raphaelbastide.com/keys/bitcoin.txt">Bitcoin</a><h2>
       </header>
-      <section class="recent" id="usemodify">
-        <p><a href="http://usemodify.com/">Use & Modify</a> is a libre font list I curate.</p>
+      <section id="usemodify">
+        <h2><a href="http://usemodify.com/">Use & Modify</a></h2>
+        <p class="description">2014, font list</p>
       </section>
-      <section class="recent" id="ofont">
-        <p><a href="http://ofont.net/">ofont</a> is an online tool for font classification. <a href="https://github.com/raphaelbastide/ofont">Download</a> the sources on GitHub.</p>
+      <section id="ofont">
+        <h2><a href="http://ofont.net/">ofont</a></h2>
+        <p class="description">2014, online tool for font curration and classification</p>
       </section>
-      <section class="recent" id="esad2014">
-        <p>Workshop ESAD Valence <a href="http://raphaelbastide.com/esad2014/">Objets Versionnés</a>.</p>
-        <time>2014 April</time>
-      </section>
-      <section id="lgm-usemodify">
-        <p>Talk at Libre Graphics Meeting: <a href="#usemodify">Use & Modify</a>.</p>
-        <time>2014 March</time>
+      <section id="esad2014">
+        <h2><a href="http://raphaelbastide.com/esad2014/">Objets Versionnés</a></h2>
+        <p class="description">2014, workshop at ESAD Valence</p>
       </section>
       <section id="steps-mono">
-        <p><a href="https://github.com/raphaelbastide/Whois-mono/">Steps Mono</a> designed with <a href="http://cargocollective.com/jbmrz">JB Morizot</a> (Open Font License)</p>
-        <time>2014</time>
+        <h2><a href="https://github.com/raphaelbastide/Whois-mono/">Steps Mono</a></h2>
+        <p class="description">2014, open source font designed with <a href="http://cargocollective.com/jbmrz">JB Morizot</a></p>
       </section>
       <section id="revisable1">
-        <p>Personal exhibition <a href="http://raphaelbastide.com/revisables/">Révisable 1</a> at iMAL, Brussels.</p>
-        <time>2013 August</time>
+        <h2><a href="http://raphaelbastide.com/revisables/">Révisable 1</a></h2>
+        <p class="description">2013, personal exhibition at iMAL, Brussels</p>
       </section>
       <section id="branch">
-        <p>Personal exhibition <a href="http://raphaelbastide.com/branch/">BRANCH</a> at De La Charge, Brussels.</p>
-        <time>2013 February</time>
+        <h2><a href="http://raphaelbastide.com/branch/">BRANCH</a></h2>
+        <p class="description">2013, personal exhibition at De La Charge, Brussels</p>
       </section>
       <section id="volumes">
-        <p>Exhibition Volumes with <a href="http://kevinbray.biz/">Kevin Bray</a> at 22 Rue Muller, Paris.</p>
-        <time>2012 November</time>
+        <h2>Volumes</h2>
+        <p class="description">2012, exhibition with <a href="http://kevinbray.biz/">Kevin Bray</a> at 22 Rue Muller, Paris</p>
       </section>
       <section id="parallax">
-        <p>Dirty Web design workshop <a href="http://raphaelbastide.com/parallax/">Parallax</a> at Festival de l’Affiche et du Graphisme in Chaumont, France</p>
-        <time>2012 June</time>
+        <h2><a href="http://raphaelbastide.com/parallax/">Parallax</a></h2>
+        <p class="description">2012, Dirty Web design workshop at at Festival de l’Affiche et du Graphisme in Chaumont, France</p>
       </section>
       <section id="whois-mono">
-        <p><a href="https://github.com/raphaelbastide/Whois-mono/">Whois Mono</a> (Open Font License)</p>
-        <time>2012 June</time>
+        <h2><a href="https://github.com/raphaelbastide/Whois-mono/">Whois Mono</a></h2>
+        <p class="description">2012, open source font</p>
       </section>
       <section id="1962">
-        <p><a href="http://raphaelbastide.com/1962/">1962</a></p>
-        <time>2012 February</time>
+        <h2><a href="http://raphaelbastide.com/1962/">1962</a></h2>
+        <p class="description">2012, versioned sculpture</p>
       </section>
+      <section id="scri.ch">
+        <h2><a href="http://scri.ch">scri.ch</a></h2>
+        <p class="description">2011, web app</p>
+      </section>
+      <section id="terminal-grotesque">
+        <h2><a href="https://github.com/raphaelbastide/Terminal-Grotesque">Terminal Grotesque</a></h2>
+        <p class="description">2011, open source font</p>
+      </section>      
       <section id="skypapers">
-        <p><a href="http://lab.raphaelbastide.com/skypapers/">Skypapers</a></p>
-        <time>2011 October</time>
+        <h2><a href="http://lab.raphaelbastide.com/skypapers/">Skypapers</a></h2>
+        <p class="description">2011, curation</p>
       </section>
       <section id="digimp">
-        <p>Graphic improvisations using <a href="http://raphaelbastide.com/digimp/">DIGIMP</a></p>
-        <time>2009</time>
+        <h2><a href="http://raphaelbastide.com/digimp/">DIGIMP</a></h2>
+        <p class="description">2009, instrument for graphic improvisation</p>
       </section>
       <section id="screen-over-book">
-        <p><a href="http://raphaelbastide.com/screen-over-book/">Screen Over Blank Book</a></p>
-        <time>2009</time>
+        <h2><a href="http://raphaelbastide.com/screen-over-book/">Screen Over Blank Book</a></h2>
+        <p class="description">2009, installation</p>    
       </section>
       <section id="fabien-mousse">
-        <p><a href="http://fabien-mousse.fr/">Fabien Mousse</a></p>
-        <time>2008, ongoing</time>
+        <h2><a href="http://fabien-mousse.fr/">Fabien Mousse</a></h2>
+        <p class="description">2008, persona ongoing</p>
       </section>
       <section id="niei">
-        <p><a href="http://niei.neocities.org/">N.I.E.I.</a></p>
-        <time>2008, ongoing</time>
+        <h2><a href="http://niei.neocities.org/">N.I.E.I.</a></h2>
+        <p class="description">2008, persona ongoing</p>
       </section>
     </main>
     <div class="images cycle-slideshow cycle-next" 

@@ -8,7 +8,7 @@ table{border-collapse:collapse;border-spacing:0}
 
 body{
   padding:3%;
-  font:21px/28px 'linux_libertine', serif;
+  font:23px/30px 'linux_libertine', serif;
 }
 
 header{
@@ -19,20 +19,28 @@ header p{
 }
 
 main{
-  max-width:600px;
+  max-width:500px;
 }
 
 section{
   margin-bottom: 1.2em;
 }
 
-p{
+h1{
+  margin-bottom: 10px;
+}
+
+header, h2{
   transform:scale(1,1.09);
   -webkit-transform:scale(1,1.09);
   -moz-transform:scale(1,1.09);
   -ms-transform:scale(1,1.09);
   -o-transform:scale(1,1.09);
   transform-origin: 0 0;
+}
+
+h2{
+  margin-bottom: 10px;
 }
 
 a{
@@ -46,8 +54,9 @@ a:visited, a:hover{
 em{
   font-style: italic;
 }
-time{
+.description{
   font-size: .6em;
+  line-height: 1.3em;
   font-family: verdana, 'Whoismono', monospace;
 }
 
