@@ -8,7 +8,7 @@ table{border-collapse:collapse;border-spacing:0}
 
 body{
   padding:3%;
-  font:23px/30px 'linux_libertine', serif;
+  font:20px/1.3em 'linux_libertine', serif;
 }
 
 header{
@@ -59,7 +59,6 @@ em{
   line-height: 1.3em;
   font-family: verdana, 'Whoismono', monospace;
 }
-
 .images{
   width: 500px;
   height: 600px;
@@ -74,8 +73,8 @@ em{
 }
 
 #jsplumbContainer { z-index:0; margin-top:100px; }
-#mask { 
-  z-index:10; 
+#mask {
+  z-index:10;
   height: 100px;
   position:absolute;
   width:100%;
@@ -84,11 +83,18 @@ em{
 }
 ._jsPlumb_connector { z-index:5; }
 
+.line {
+  position: fixed;
+  height: 1px;
+  width: 1px;
+  transform-origin: 0;
+  background: black;
+}
 @media only screen and (max-width: 1200px) {
   .images{
     width: 100%;
     max-width: 500px;
-    position:static;    
+    position:static;
   }
   main{
     width: 90%;

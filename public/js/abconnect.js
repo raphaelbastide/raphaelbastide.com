@@ -1,0 +1,51 @@
+// ABConnect, MIT
+// https://gist.github.com/raphaelbastide/157aaee7da6d2b761b2a
+
+var DEGREES = 180 / Math.PI;
+
+function createDiv(classname) {
+  var div = document.createElement('div');
+  div.className = classname;
+  document.body.appendChild(div);
+  return div;
+}
+
+function elementVect(elt) {
+  var rect = elt.getBoundingClientRect();
+  return [rect.left , rect.bottom ];
+}
+
+function renderLine(line, vec1, vec2) {
+  // lineVec = vec1 - vec2
+  var lineVec = [vec1[0] - vec2[0], vec1[1] - vec2[1]];
+  // angle = invert lineVec, then get its angle in degrees
+  var angle = Math.atan2(lineVec[1] * -1, lineVec[0] * -1) * DEGREES;
+  // length of lineVec
+  var length = Math.sqrt(lineVec[0] * lineVec[0] + lineVec[1] * lineVec[1]);
+  line.style.top = vec1[1] + 'px';
+  line.style.left = vec1[0] + 'px';
+  line.style.width = length + 'px';
+  line.style.transform = 'rotate(' + angle + 'deg)';
+}
+
+var line = createDiv('line');
+
+var aVec = null;
+var bVec = null;
+
+function draw(cla, clb, update) {
+  var a = cla;
+  var b = clb;
+  // Remove the requestAnimationFrame if you want the line to be always aligned (e.g. even when scrolling)
+  requestAnimationFrame(function() {
+    if (update) {
+      aVec = elementVect(a);
+      bVec = elementVect(b);
+    }
+    renderLine(line, aVec, bVec);
+  });
+}
+
+function abconnect(cla, clb){
+  draw(cla, clb, true);
+}
