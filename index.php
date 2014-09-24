@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-<html>
+ <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Raphaël Bastide</title>
-    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="public/css/style.css">
+    <meta name="viewport" content="width=device-width">
     <link rel="shortcut icon" href="public/img/favicon.gif"/>
-    <link rel="stylesheet" href="public/font/stylesheet.css">
   </head>
   <body>
     <main>
       <header>
         <h1>Raphaël Bastide</h1>
           <p>Art, code and graphic design.<br/>Lives and works in Paris.<br/>Uses, designs and modifies free software and alternative tools.</p>
-          <p><a href="mailto:bonjour@raphaelbastide.com">Email</a> - <a href="http://raphaelbastide.com/keys/pgp.txt">PGP</a> - <a href="http://eepurl.com/o-nJj">Newsletter</a> - <a href="http://twitter.com/raphaelbastide">Twitter</a> - <a href="https://github.com/raphaelbastide/">GitHub</a> - <a href="http://raphaelbastide.com/keys/bitcoin.txt">Bitcoin</a><h2>
+          <p><a href="mailto:bonjour@raphaelbastide.com">Email</a> - <a href="http://raphaelbastide.com/keys/pgp.txt">PGP</a> - <a href="http://eepurl.com/o-nJj">Newsletter</a> - <a href="http://twitter.com/raphaelbastide">Twitter</a> - <a href="https://github.com/raphaelbastide/">GitHub</a> - <a href="http://raphaelbastide.com/keys/bitcoin.txt">Bitcoin</a><p>
       </header>
       <section id="marathonVTF">
         <h2><a href="http://raphaelbastide.com/very-slow-and-approximative-browsing-experience-provider/">very slow and approximative browsing experience provider</a></h2>
