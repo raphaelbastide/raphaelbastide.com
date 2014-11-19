@@ -12,7 +12,7 @@ function createDiv(classname) {
 
 function elementVect(elt) {
   var rect = elt.getBoundingClientRect();
-  return [rect.left , rect.bottom ];
+  return [Math.round(rect.left) , Math.round(rect.bottom) ];
 }
 
 function renderLine(line, vec1, vec2) {
@@ -39,8 +39,14 @@ function draw(cla, clb, update) {
   // Remove the requestAnimationFrame if you want the line to be always aligned (e.g. even when scrolling)
   requestAnimationFrame(function() {
     if (update) {
-      aVec = elementVect(a);
-      bVec = elementVect(b);
+      if (a === null || b === null ){
+        console.log('something missing');
+        aVec = [0,0];
+        bVec = [0,0];
+      }else{
+        aVec = elementVect(a);
+        bVec = elementVect(b);
+      }
     }
     renderLine(line, aVec, bVec);
   });

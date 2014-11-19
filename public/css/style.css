@@ -90,6 +90,7 @@ em{
   position: fixed;
   height: 1px;
   width: 1px;
+  margin-top:-1px;
   transform-origin: 0;
   background: black;
 }

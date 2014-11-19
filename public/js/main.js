@@ -2,7 +2,7 @@
 function connect(){
   var currImgId = $('.cycle-slide.cycle-slide-active').attr('id'),
       // Regex pattern to escape "-"+"digit" as in "branch-2"" : /[-]\d+\b/g
-      cleanImgId = currImgId.replace(/[-]\d+\b/g,''),
+      cleanImgId = currImgId,
       currTxtId = currImgId.replace(/[-]\d+\b/g,'').replace('-img',''),
       // currTxt = "$('#"+currTxtId+"'')";
       // currImg = "$('."+cleanImgId+"'')",
