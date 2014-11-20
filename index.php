@@ -14,13 +14,13 @@
           <p>Art, code and graphic design.<br/>Lives and works in Paris.<br/>Uses, designs and modifies free software and alternative tools.</p>
           <p><a href="mailto:bonjour@raphaelbastide.com">Email</a> - <a href="http://raphaelbastide.com/keys/pgp.txt">PGP</a> - <a href="http://eepurl.com/o-nJj">Newsletter</a> - <a href="http://twitter.com/raphaelbastide">Twitter</a> - <a href="https://github.com/raphaelbastide/">GitHub</a> - <a href="http://raphaelbastide.com/keys/bitcoin.txt">Bitcoin</a><p>
       </header>
-      <section id="marathonVTF">
+      <section id="very-slow">
         <h2><a href="http://raphaelbastide.com/very-slow-and-approximative-browsing-experience-provider/">very slow and approximative browsing experience provider</a></h2>
-        <p class="description">2014, see long title</p>
+        <p class="description">2014, a long title for a speed project</p>
       </section>
       <section id="marathonVTF">
         <h2><a href="http://velvetyne.fr/marathongeneral/">Vagabondage Typographique Festif </a></h2>
-        <p class="description">2014, libre typography workshop, posters</p>
+        <p class="description">2014, libre typography workshop</p>
       </section>
       <section id="usemodify">
         <h2><a href="http://usemodify.com/">Use & Modify</a></h2>
@@ -50,9 +50,13 @@
         <h2>Volumes</h2>
         <p class="description">2012, exhibition with <a href="http://kevinbray.biz/">Kevin Bray</a> at 22 Rue Muller, Paris</p>
       </section>
+      <section id="lisezmoi">
+        <h2><a href="http://lisezmoi.org/">LISEZMOI</a></h2>
+        <p class="description">2012 to ∞, selection of projects made with <a href="http://pierrebertet.net/">Pierre Bertet</a></p>
+      </section>
       <section id="parallax">
         <h2><a href="http://raphaelbastide.com/parallax/">Parallax</a></h2>
-        <p class="description">2012, Dirty Web design workshop at at Festival de l’Affiche et du Graphisme in Chaumont, France</p>
+        <p class="description">2012, Dirty Web design workshop at Festival de l’Affiche et du Graphisme in Chaumont, France</p>
       </section>
       <section id="whois-mono">
         <h2><a href="https://github.com/raphaelbastide/Whois-mono/">Whois Mono</a></h2>
@@ -60,7 +64,7 @@
       </section>
       <section id="1962">
         <h2><a href="http://raphaelbastide.com/1962/">1962</a></h2>
-        <p class="description">2012, versioned sculpture</p>
+        <p class="description">2012, versioned sculptures</p>
       </section>
       <section id="scri.ch">
         <h2><a href="http://scri.ch">scri.ch</a></h2>
@@ -95,6 +99,17 @@
         <p class="description">2008, persona, ongoing</p>
       </section>
     </main>
+    <div id="deeper">
+      <ul>Bonus:
+        <li><a href="http://outilslibresalternatifs.org/">Outils Libres Alternatifs</a></li>
+        <li><a href="http://libreobjet.org">Libre Objet</a></li>
+        <li><a href="http://old.raphaelbastide.com">Old websites</a></li>
+        <li><a href="http://bm.raphaelbastide.com">Bookmarks</a></li>
+        <li><a href="http://music.raphaelbastide.com">Music</a></li>
+        <li><a href="http://notesondesign.org/raphael-bastide/">Portrait par Sylvia Fredriksson, 2014</a></li>
+        <li><a href="https://github.com/raphaelbastide/vomimage">Vomimage, punk image gallery</a></li>
+      </ul>
+    </div>
     <div class="images cycle-slideshow cycle-next"
       data-cycle-loader="true"
       data-cycle-random="true"
@@ -122,7 +137,7 @@
         }
         ?>
 <!--   </script>-->
-    </div>
+
     <script src='public/js/jquery.js'></script>
     <script src='public/js/cycle.js'></script>
     <script src='public/js/abconnect.js'></script>
