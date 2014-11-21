@@ -1,4 +1,3 @@
-
 function connect(){
   var currImgId = $('.cycle-slide.cycle-slide-active').attr('id'),
       // Regex pattern to escape "-"+"digit" as in "branch-2"" : /[-]\d+\b/g
@@ -24,6 +23,10 @@ window.addEventListener('resize', function() {
 });
 
 $( '.cycle-slideshow' ).on( 'cycle-after', function() {
+  connect();
+});
+
+$(document).ready(function() {
   connect();
 });
 

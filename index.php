@@ -11,8 +11,8 @@
     <main>
       <header>
         <h1>Raphaël Bastide</h1>
-          <p>Art, code and graphic design.<br/>Lives and works in Paris.<br/>Uses, designs and modifies free software and alternative tools.</p>
-          <p><a href="mailto:bonjour@raphaelbastide.com">Email</a> - <a href="http://raphaelbastide.com/keys/pgp.txt">PGP</a> - <a href="http://eepurl.com/o-nJj">Newsletter</a> - <a href="http://twitter.com/raphaelbastide">Twitter</a> - <a href="https://github.com/raphaelbastide/">GitHub</a> - <a href="http://raphaelbastide.com/keys/bitcoin.txt">Bitcoin</a><p>
+          <p>Art, code and graphic design.<br/>Uses, designs and modifies free software and alternative tools.</p>
+          <p><a href="mailto:bonjour@raphaelbastide.com">Email</a> - <a href="http://eepurl.com/o-nJj">Newsletter</a> - <a href="http://twitter.com/raphaelbastide">Twitter</a> - <a href="https://github.com/raphaelbastide/">GitHub</a> - <a href="http://raphaelbastide.com/keys/bitcoin.txt">Bitcoin</a><p>
       </header>
       <section id="very-slow">
         <h2><a href="http://raphaelbastide.com/very-slow-and-approximative-browsing-experience-provider/">very slow and approximative browsing experience provider</a></h2>
@@ -64,7 +64,7 @@
       </section>
       <section id="1962">
         <h2><a href="http://raphaelbastide.com/1962/">1962</a></h2>
-        <p class="description">2012, versioned sculptures</p>
+        <p class="description">2012, version-based installations</p>
       </section>
       <section id="scri.ch">
         <h2><a href="http://scri.ch">scri.ch</a></h2>
@@ -99,7 +99,8 @@
         <p class="description">2008, persona, ongoing</p>
       </section>
     </main>
-    <div id="deeper">
+    <section id="deeper" class="hide">
+      <h2><a href="">…</a></h2>
       <ul>Bonus:
         <li><a href="http://outilslibresalternatifs.org/">Outils Libres Alternatifs</a></li>
         <li><a href="http://libreobjet.org">Libre Objet</a></li>
@@ -108,8 +109,17 @@
         <li><a href="http://music.raphaelbastide.com">Music</a></li>
         <li><a href="http://notesondesign.org/raphael-bastide/">Portrait par Sylvia Fredriksson, 2014</a></li>
         <li><a href="https://github.com/raphaelbastide/vomimage">Vomimage, punk image gallery</a></li>
+        <li>Websites I designed:
+          <ul>
+            <li><a href="http://xpogallery.com/">XPO GALLERY</a></li>
+            <li><a href="http://cneai.com/evenement/">CNEAI : événements</a></li>
+            <li><a href="http://slanted.cc/">Slanted</a></li>
+            <li><a href="http://aude-debout.fr/">Aude Debout</a></li>
+            <li><a href="http://carolinelollo.fr/">Caroline Lollo</a></li>
+          </ul>
+        </li>
       </ul>
-    </div>
+    </section>
     <div class="images cycle-slideshow cycle-next"
       data-cycle-loader="true"
       data-cycle-random="true"

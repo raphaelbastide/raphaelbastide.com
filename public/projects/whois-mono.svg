@@ -13,7 +13,7 @@
    height="416.18286"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.48.5 r10040"
    sodipodi:docname="whois-mono.svg">
   <defs
      id="defs4" />
@@ -28,10 +28,10 @@
      inkscape:cx="280.82338"
      inkscape:cy="179.282"
      inkscape:document-units="px"
-     inkscape:current-layer="g3766"
+     inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="873"
+     inkscape:window-width="1600"
+     inkscape:window-height="879"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -57,7 +57,7 @@
      id="layer1"
      transform="translate(-86.751717,6.7083516)">
     <rect
-       style="fill:#692269;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="fill:#2d1650;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect2996"
        width="549.52301"
        height="416.18286"

@@ -83,29 +83,22 @@ em{
   transform-origin: 0;
   background: black;
 }
-#deeper{
+#deeper>ul{
   font-size:1.3em;
-  margin-top:100px;
-  font-family:verdana;
-  color:transparent;
-  font-weight:bold;
-  letter-spacing:-1px;
+  font-size: .6em;
+  line-height: 1.3em;
+  font-family: verdana, 'Whoismono', monospace;
+  display:inline;
 }
 #deeper a{
   border:none;
 }
-#deeper a:hover{
-  background:#ccc;
-  color:white;
-}
-#deeper:hover{
-  color:#ccc;
-}
+
 #deeper ul li{
   display:inline;
 }
-#deeper ul li{
-  display:inline;
+.hide{
+  display:none;
 }
 @media only screen and (max-width: 1200px) {
   .images{
