@@ -1,3 +1,37 @@
+<?php
+function getImages($project_dir) {
+  $images = glob("$project_dir/{*.jpg,*.jpeg,*.gif,*.png,*.svg}", GLOB_BRACE);
+  natsort($images);
+  $images = array_values($images);
+  return array_map(function($img) {
+    $info = pathinfo($img);
+    $name = basename($img, '.'.$info['extension']);
+    $fullname = basename($img);
+    list($width, $height, $type, $attr) = getimagesize($img);
+    return (object)[
+      'fullname' => $fullname,
+      'name' => $name,
+      'width' => $width,
+      'height' => $height
+    ];
+  }, $images);
+}
+// Get data from a cached file if it exists,
+// otherwise call the function and set the cache file.
+function getFromCache($name, $callback) {
+  $path = __DIR__."/$name-cache";
+  // Try to get the cached data
+  if (file_exists($path)) {
+    $rawData = file_get_contents($path);
+    if ($rawData) return unserialize($rawData);
+  }
+  // Cache the data
+  $data = $callback();
+  file_put_contents($path, serialize($data));
+  return $data;
+}
+?>
+
 <!DOCTYPE html>
 <!--
   Made by Raphaël Bastide
@@ -94,6 +128,10 @@
         <h2><a href="http://ecogex.com/">ECOGEX</a></h2>
         <p class="description">2009, persona, ongoing</p>
       </section>
+      <section id="alice-leonards">
+        <h2><a href="http://parthenogenic.com/">Alice Leonards</a></h2>
+        <p class="description">2009, persona, ongoing</p>
+      </section>
       <section id="fabien-mousse">
         <h2><a href="http://fabien-mousse.fr/">Fabien Mousse</a></h2>
         <p class="description">2008, persona, ongoing</p>
@@ -124,30 +162,14 @@
         </li>
       </ul>
     </section>
-    <div class="images cycle-slideshow cycle-next"
-      data-cycle-loader="true"
-      data-cycle-random="true"
-      data-cycle-log="false"
-      data-cycle-auto-height="200px"
-      data-cycle-fx="none"
-      data-cycle-swipe="true"
-      data-cycle-swipe-fx="scrollHorz"
-      data-cycle-pause-on-hover="true"
-      data-cycle-timeout="7000"
-      data-cycle-progressive="#loader"
-      data-cycle-next=".cycle-next"
-      data-cycle-speed="1">
-        <?php
-        $directory = "public/projects/";
-        $images = glob($directory."{*.jpg,*.jpeg,*.gif,*.png,*.svg}", GLOB_BRACE);
-        natsort($images);
-        foreach ($images as $img) {
-          $info = pathinfo($img);
-          $imageName =  basename($img,'.'.$info['extension']);
-          list($width, $height, $type, $attr)= getimagesize($img);
-          echo "<img src='$img' id='".$imageName."-img' class='".$imageName."-img' width='$width' height='$height' /> \n";
-        }
-        ?>
+    <div class="images">
+    <?php
+    $images = getFromCache('images', function() {
+      return getImages(__DIR__.'/public/projects');
+    });
+    foreach ($images as $img): ?>
+      <img src="public/projects/<?= $img->fullname ?>" id="<?= $img->name ?>-img" class="<?= $img->name ?>-img" width="<?= $img->width ?>" height="<?= $img->height ?>">
+    <?php endforeach ?>
     </div>
     <script src='public/js/jquery.js'></script>
     <script src='public/js/cycle.js'></script>
