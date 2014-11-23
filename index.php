@@ -61,7 +61,7 @@ function getFromCache($name, $callback) {
         <p class="description">2014, libre typography workshop</p>
       </section>
       <section id="usemodify">
-        <h2><a href="http://usemodify.com/">Use & Modify</a></h2>
+        <h2><a href="http://usemodify.com/">Use &amp; Modify</a></h2>
         <p class="description">2014, font list</p>
       </section>
       <section id="ofont">

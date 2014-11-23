@@ -68,7 +68,7 @@ em{
   top: 0;
   right: 0;
   cursor: pointer;
-  cursor:url(../img/cursor.cur);
+  cursor: url(../img/cursor.cur), auto;
 }
 
 .images img{
