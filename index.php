@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<!--
+  Made by Raphaël Bastide
+  Source code: https://github.com/raphaelbastide/raphaelbastide.com
+-->
  <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -133,8 +137,6 @@
       data-cycle-progressive="#loader"
       data-cycle-next=".cycle-next"
       data-cycle-speed="1">
-<!--  <img src='public/projects/40.jpg' id='40-img' class='cycle-next' width='1200' height='803' />
-      <script id="loader" type="text/cycle">-->
         <?php
         $directory = "public/projects/";
         $images = glob($directory."{*.jpg,*.jpeg,*.gif,*.png,*.svg}", GLOB_BRACE);
@@ -146,8 +148,7 @@
           echo "<img src='$img' id='".$imageName."-img' class='".$imageName."-img' width='$width' height='$height' /> \n";
         }
         ?>
-<!--   </script>-->
-
+    </div>
     <script src='public/js/jquery.js'></script>
     <script src='public/js/cycle.js'></script>
     <script src='public/js/abconnect.js'></script>
