@@ -50,7 +50,19 @@ function getFromCache($name, $callback) {
       <header>
         <h1>Raphaël Bastide</h1>
           <p>Art, code and graphic design.<br/>Uses, designs and modifies free software and alternative tools.</p>
-          <p><a href="mailto:bonjour@raphaelbastide.com">Email</a> - <a href="http://eepurl.com/o-nJj">Newsletter</a> - <a href="http://twitter.com/raphaelbastide">Twitter</a> - <a href="https://github.com/raphaelbastide/">GitHub</a> - <a href="http://raphaelbastide.com/keys/bitcoin.txt">Bitcoin</a><p>
+          <p><a href="mailto:bonjour@raphaelbastide.com">Email</a> - <span class="formBtn">Newsletter</span> - <a href="http://twitter.com/raphaelbastide">Twitter</a> - <a href="https://github.com/raphaelbastide/">GitHub</a> - <a href="http://raphaelbastide.com/keys/bitcoin.txt">Bitcoin</a><p>
+          <!-- Begin MailChimp Signup Form -->
+          <div id="newsletter-form">
+            <form action="//raphaelbastide.us5.list-manage.com/subscribe/post?u=475756c12dd6e1f054910142e&amp;id=ad85720904" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            	<input type="email" value="" name="EMAIL" placeholder="Email address" class="required email" id="mce-EMAIL">
+          		<div class="response" id="mce-error-response" style="display:none"></div>
+          		<div class="response" id="mce-success-response" style="display:none"></div>
+              <div style="position: absolute; left: -5000px;"><input type="text" name="b_475756c12dd6e1f054910142e_ad85720904" tabindex="-1" value=""></div>
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+            </form>
+          </div>
+
+          <!--End mc_embed_signup-->
       </header>
       <section id="very-slow">
         <h2><a href="http://raphaelbastide.com/very-slow-and-approximative-browsing-experience-provider/">very slow and approximative browsing experience provider</a></h2>
@@ -171,9 +183,6 @@ function getFromCache($name, $callback) {
       <img src="public/projects/<?= $img->fullname ?>" id="<?= $img->name ?>-img" class="<?= $img->name ?>-img" width="<?= $img->width ?>" height="<?= $img->height ?>">
     <?php endforeach ?>
     </div>
-    <script src='public/js/jquery.js'></script>
-    <script src='public/js/cycle.js'></script>
-    <script src='public/js/abconnect.js'></script>
-    <script src='public/js/main.js'></script>
+    <script src='public/js/bundle.js'></script>
   </body>
 </html>

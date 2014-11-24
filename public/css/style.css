@@ -46,12 +46,14 @@ h2{
   margin-bottom: 10px;
 }
 
-a{
+a, .formBtn{
   color:inherit;
   text-decoration: none;
+  border:0;
   border-bottom: 1px solid black;
+  cursor:pointer;
 }
-a:visited, a:hover{
+a:visited, a:hover, .formBtn:hover{
   border-style: dotted;
 }
 em{
@@ -101,6 +103,29 @@ em{
 .hide{
   display:none;
 }
+
+#newsletter-form{
+  display:none;
+}
+#newsletter-form.opened{
+  display:block;
+}
+#newsletter-form input{
+  display: inline;
+  padding: 2px 0px;
+  text-indent: 5px;
+  min-width: 100px;
+  border:0;
+  background:#ccc;
+  line-height: 1.3em;
+  font-size: .6em;
+  font-family: verdana, 'Whoismono', monospace;
+}
+#newsletter-form input.email{
+  background:#eee;
+  border:1px solid #eee;
+}
+
 @media only screen and (max-width: 1200px) {
   .images{
     width: 100%;
