@@ -69,6 +69,19 @@ img.addEventListener('click', function(){
 },false);
 
 
+var form = document.getElementById('newsletter-form'),
+    formBtn = document.querySelector('.formBtn'),
+    formInput =  document.querySelector('.email');
+formBtn.addEventListener('click', function(){
+  if(form.classList.contains('opened')){
+    form.classList.remove('opened');
+  }else{
+    form.classList.add('opened');
+    formInput.focus()
+  }
+},false);
+
+
 
 //+ Jonas Raoni Soares Silva
 //@ http://jsfromhell.com/array/shuffle [v1.0]
