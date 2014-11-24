@@ -55,6 +55,7 @@ function draw(cla, clb, update) {
 function abconnect(cla, clb){
   draw(cla, clb, true);
 }
+(function() {
 var currImgId = null;
 
 var cycleControls = cycle(document.querySelector('.images'), 7000, function(img) {
@@ -105,8 +106,8 @@ function cycle(container, delay, cb) {
     timer = setTimeout(next, delay);
     activeImg().style.display = 'none';
     activeIndex = getIndex(direction || 1);
-    cb(activeImg());
     activeImg().style.display = 'block';
+    cb(activeImg());
   }
   function prev() {
     next(-1);
@@ -138,11 +139,10 @@ formBtn.addEventListener('click', function(){
   }
 },false);
 
-
-
 //+ Jonas Raoni Soares Silva
 //@ http://jsfromhell.com/array/shuffle [v1.0]
 function shuffle(o){ //v1.0
     for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
     return o;
 };
+}())
