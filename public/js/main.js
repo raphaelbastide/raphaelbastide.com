@@ -12,7 +12,7 @@ document.addEventListener('keyup', function(event) {
   if (direction) cycleControls[direction]();
 });
 
-connect();
+document.addEventListener('DOMContentLoaded', connect)
 
 function connect() {
   if (currImgId === null) return;

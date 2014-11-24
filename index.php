@@ -40,6 +40,7 @@ function getFromCache($name, $callback) {
   <head>
     <meta charset="utf-8">
     <title>Raphaël Bastide</title>
+    <link rel="stylesheet" href="public/font/stylesheet.css">
     <link rel="stylesheet" href="public/css/style.css">
     <meta name="viewport" content="width=device-width">
     <link rel="shortcut icon" href="public/img/favicon.gif"/>
