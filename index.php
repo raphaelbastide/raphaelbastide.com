@@ -85,7 +85,7 @@ function getFromCache($name, $callback) {
         <p class="description">2014, workshop at ESAD Valence</p>
       </section>
       <section id="steps-mono">
-        <h2><a href="https://github.com/raphaelbastide/Whois-mono/">Steps Mono</a></h2>
+        <h2><a href="http://raphaelbastide.com/steps-mono/">Steps Mono</a></h2>
         <p class="description">2014, open source font designed with <a href="http://cargocollective.com/jbmrz">JB Morizot</a></p>
       </section>
       <section id="revisable1">
