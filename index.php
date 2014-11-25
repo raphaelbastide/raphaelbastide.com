@@ -65,7 +65,7 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
 <main>
   <header>
     <h1>Raphaël Bastide</h1>
-    <p>Art, code and graphic design.<br/>Uses, designs and modifies free software and alternative tools.</p>
+    <p>Art, code and graphic design.<br/>Uses, designs and modifies free software and alternative tools.</p>
     <p><a href="mailto:bonjour@raphaelbastide.com">Email</a> - <span class="formBtn">Newsletter</span> - <a href="http://twitter.com/raphaelbastide">Twitter</a> - <a href="https://github.com/raphaelbastide/">GitHub</a> - <a href="http://raphaelbastide.com/keys/bitcoin.txt">Bitcoin</a><p>
     <div id="newsletter-form">
       <form action="//raphaelbastide.us5.list-manage.com/subscribe/post?u=475756c12dd6e1f054910142e&amp;id=ad85720904" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>

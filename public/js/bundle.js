@@ -62,11 +62,6 @@ var CYCLE_INTERVAL = 7000;
 var images = document.querySelector('.images');
 var currImgId = null;
 
-var cycleControls = cycle(images, CYCLE_INTERVAL, function(img) {
-  currImgId = img.id;
-  connect();
-});
-
 images.addEventListener('click', function() {
   cycleControls.next();
 });
@@ -77,6 +72,10 @@ document.addEventListener('keyup', function(event) {
   if (direction) cycleControls[direction]();
 });
 document.addEventListener('DOMContentLoaded', function() {
+  var cycleControls = cycle(images, CYCLE_INTERVAL, function(img) {
+    currImgId = img.id;
+    connect();
+  });
   setTimeout(connect, 0);
 });
 
@@ -107,8 +106,8 @@ function cycle(container, delay, cb) {
   var order = shuffle(Object.keys(imgs));
   var activeIndex = 0;
 
-  order = Object.keys(imgs);
-  activeIndex = 26;
+  // order = Object.keys(imgs);
+  // activeIndex = 26;
 
   var timer = null;
   function activeImg() {
