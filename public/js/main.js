@@ -49,8 +49,10 @@ function cycle(container, delay, cb) {
   var imgs = container.querySelectorAll('img');
   var order = shuffle(Object.keys(imgs));
   var activeIndex = 0;
-  // var order = Object.keys(imgs);
-  // var activeIndex = 5;
+
+  order = Object.keys(imgs);
+  activeIndex = 26;
+
   var timer = null;
   function activeImg() {
     return imgs[order[activeIndex]];
