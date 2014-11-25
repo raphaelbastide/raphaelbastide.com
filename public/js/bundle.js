@@ -56,21 +56,39 @@ function abconnect(cla, clb){
   draw(cla, clb, true);
 }
 (function() {
+
+var CYCLE_INTERVAL = 7000;
+
+var images = document.querySelector('.images');
 var currImgId = null;
 
-var cycleControls = cycle(document.querySelector('.images'), 7000, function(img) {
+var cycleControls = cycle(images, CYCLE_INTERVAL, function(img) {
   currImgId = img.id;
   connect();
 });
 
+images.addEventListener('click', function() {
+  cycleControls.next();
+});
 window.addEventListener('scroll', connect);
 window.addEventListener('resize', connect);
 document.addEventListener('keyup', function(event) {
   var direction = ({ 37: 'prev', 39: 'next' })[event.keyCode];
   if (direction) cycleControls[direction]();
 });
+document.addEventListener('DOMContentLoaded', function() {
+  setTimeout(connect, 0);
+});
 
-document.addEventListener('DOMContentLoaded', connect)
+var form = document.getElementById('newsletter-form');
+var formBtn = document.querySelector('.formBtn');
+var formInput =  document.querySelector('.email');
+
+formBtn.addEventListener('click', function(){
+  if (form.classList.toggle('opened')){
+    formInput.focus()
+  }
+});
 
 function connect() {
   if (currImgId === null) return;
@@ -88,6 +106,8 @@ function cycle(container, delay, cb) {
   var imgs = container.querySelectorAll('img');
   var order = shuffle(Object.keys(imgs));
   var activeIndex = 0;
+  // var order = Object.keys(imgs);
+  // var activeIndex = 5;
   var timer = null;
   function activeImg() {
     return imgs[order[activeIndex]];
@@ -121,23 +141,6 @@ function cycle(container, delay, cb) {
     prev: prev
   };
 }
-var img = document.querySelector('.images');
-img.addEventListener('click', function(){
-  cycleControls['next']();
-},false);
-
-
-var form = document.getElementById('newsletter-form'),
-    formBtn = document.querySelector('.formBtn'),
-    formInput =  document.querySelector('.email');
-formBtn.addEventListener('click', function(){
-  if(form.classList.contains('opened')){
-    form.classList.remove('opened');
-  }else{
-    form.classList.add('opened');
-    formInput.focus()
-  }
-},false);
 
 //+ Jonas Raoni Soares Silva
 //@ http://jsfromhell.com/array/shuffle [v1.0]
@@ -145,4 +148,5 @@ function shuffle(o){ //v1.0
     for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
     return o;
 };
-}())
+
+}());
