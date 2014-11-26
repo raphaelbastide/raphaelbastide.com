@@ -78,35 +78,35 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
     </div>
   </header>
   <section id="very-slow">
-    <h2><a href="http://raphaelbastide.com/very-slow-and-approximative-browsing-experience-provider/">very slow and approximative browsing experience provider</a></h2>
+    <h2><a target="_blank" href="http://raphaelbastide.com/very-slow-and-approximative-browsing-experience-provider/">very slow and approximative browsing experience provider</a></h2>
     <p class="description">2014, a long title for a speed project</p>
   </section>
   <section id="marathonVTF">
-    <h2><a href="http://velvetyne.fr/marathongeneral/">Vagabondage Typographique Festif </a></h2>
+    <h2><a target="_blank" href="http://velvetyne.fr/marathongeneral/">Vagabondage Typographique Festif </a></h2>
     <p class="description">2014, libre typography workshop</p>
   </section>
   <section id="usemodify">
-    <h2><a href="http://usemodify.com/">Use &amp; Modify</a></h2>
+    <h2><a target="_blank" href="http://usemodify.com/">Use &amp; Modify</a></h2>
     <p class="description">2014, font list</p>
   </section>
   <section id="ofont">
-    <h2><a href="http://ofont.net/">ofont</a></h2>
+    <h2><a target="_blank" href="http://ofont.net/">ofont</a></h2>
     <p class="description">2014, online tool for font curration and classification</p>
   </section>
   <section id="esad2014">
-    <h2><a href="http://raphaelbastide.com/esad2014/">Objets Versionnés</a></h2>
+    <h2><a target="_blank" href="http://raphaelbastide.com/esad2014/">Objets Versionnés</a></h2>
     <p class="description">2014, workshop at ESAD Valence</p>
   </section>
   <section id="steps-mono">
-    <h2><a href="http://raphaelbastide.com/steps-mono/">Steps Mono</a></h2>
+    <h2><a target="_blank" href="http://raphaelbastide.com/steps-mono/">Steps Mono</a></h2>
     <p class="description">2014, open source font designed with <a href="http://cargocollective.com/jbmrz">JB Morizot</a></p>
   </section>
   <section id="revisable1">
-    <h2><a href="http://raphaelbastide.com/revisables/">Révisable 1</a></h2>
+    <h2><a target="_blank" href="http://raphaelbastide.com/revisables/">Révisable 1</a></h2>
     <p class="description">2013, personal exhibition at iMAL, Brussels</p>
   </section>
   <section id="branch">
-    <h2><a href="http://raphaelbastide.com/branch/">BRANCH</a></h2>
+    <h2><a target="_blank" href="http://raphaelbastide.com/branch/">BRANCH</a></h2>
     <p class="description">2013, personal exhibition at De La Charge, Brussels</p>
   </section>
   <section id="volumes">
@@ -114,60 +114,56 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
     <p class="description">2012, exhibition with <a href="http://kevinbray.biz/">Kevin Bray</a> at 22 Rue Muller, Paris</p>
   </section>
   <section id="lisezmoi">
-    <h2><a href="http://lisezmoi.org/">LISEZMOI</a></h2>
+    <h2><a target="_blank" href="http://lisezmoi.org/">LISEZMOI</a></h2>
     <p class="description">2012 to ∞, selection of projects made with <a href="http://pierrebertet.net/">Pierre Bertet</a></p>
   </section>
   <section id="parallax">
-    <h2><a href="http://raphaelbastide.com/parallax/">Parallax</a></h2>
+    <h2><a target="_blank" href="http://raphaelbastide.com/parallax/">Parallax</a></h2>
     <p class="description">2012, Dirty Web design workshop at Festival de l’Affiche et du Graphisme in Chaumont, France</p>
   </section>
   <section id="whois-mono">
-    <h2><a href="https://github.com/raphaelbastide/Whois-mono/">Whois Mono</a></h2>
+    <h2><a target="_blank" href="https://github.com/raphaelbastide/Whois-mono/">Whois Mono</a></h2>
     <p class="description">2012, open source font</p>
   </section>
   <section id="1962">
-    <h2><a href="http://raphaelbastide.com/1962/">1962</a></h2>
+    <h2><a target="_blank" href="http://raphaelbastide.com/1962/">1962</a></h2>
     <p class="description">2012, version-based installations</p>
   </section>
   <section id="scri.ch">
-    <h2><a href="http://scri.ch">scri.ch</a></h2>
+    <h2><a target="_blank" href="http://scri.ch">scri.ch</a></h2>
     <p class="description">2011, web app made with <a href="http://pierrebertet.net">Pierre Bertet</a></p>
   </section>
   <section id="terminal-grotesque">
-    <h2><a href="https://github.com/raphaelbastide/Terminal-Grotesque">Terminal Grotesque</a></h2>
+    <h2><a target="_blank" href="https://github.com/raphaelbastide/Terminal-Grotesque">Terminal Grotesque</a></h2>
     <p class="description">2011, open source font</p>
   </section>
-  <section id="skypapers">
-    <h2><a href="http://lab.raphaelbastide.com/skypapers/">Skypapers</a></h2>
-    <p class="description">2011, curation</p>
-  </section>
   <section id="digimp">
-    <h2><a href="http://raphaelbastide.com/digimp/">DIGIMP</a></h2>
+    <h2><a target="_blank" href="http://raphaelbastide.com/digimp/">DIGIMP</a></h2>
     <p class="description">2009, instrument for graphic improvisation</p>
   </section>
   <section id="screen-over-book">
-    <h2><a href="http://raphaelbastide.com/screen-over-book/">Screen Over Blank Book</a></h2>
+    <h2><a target="_blank" href="http://raphaelbastide.com/screen-over-book/">Screen Over Blank Book</a></h2>
     <p class="description">2009, installation</p>
   </section>
   <section id="ecogex">
-    <h2><a href="http://ecogex.com/">ECOGEX</a></h2>
+    <h2><a target="_blank" href="http://ecogex.com/">ECOGEX</a></h2>
     <p class="description">2009, persona, ongoing</p>
   </section>
   <section id="alice-leonards">
-    <h2><a href="http://parthenogenic.com/">Alice Leonards</a></h2>
+    <h2><a target="_blank" href="http://parthenogenic.com/">Alice Leonards</a></h2>
     <p class="description">2009, persona, ongoing</p>
   </section>
   <section id="fabien-mousse">
-    <h2><a href="http://fabien-mousse.fr/">Fabien Mousse</a></h2>
+    <h2><a target="_blank" href="http://fabien-mousse.fr/">Fabien Mousse</a></h2>
     <p class="description">2008, persona, ongoing</p>
   </section>
   <section id="niei">
-    <h2><a href="http://niei.neocities.org/">N.I.E.I.</a></h2>
+    <h2><a target="_blank" href="http://niei.neocities.org/">N.I.E.I.</a></h2>
     <p class="description">2008, persona, ongoing</p>
   </section>
   </main>
   <!-- <section id="deeper" class="hide">
-    <h2><a href="">…</a></h2>
+    <h2><a target="_blank" href="">…</a></h2>
     <ul>Bonus:
       <li><a href="http://outilslibresalternatifs.org/">Outils Libres Alternatifs</a></li>
       <li><a href="http://libreobjet.org">Libre Objet</a></li>
