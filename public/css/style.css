@@ -47,11 +47,14 @@ a, .formBtn{
   color:inherit;
   text-decoration: none;
   border:0;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid;
   cursor:pointer;
 }
 a:visited, a:hover, .formBtn:hover{
   border-style: dotted;
+}
+a:visited{
+  color:#666;
 }
 em{
   font-style: italic;
