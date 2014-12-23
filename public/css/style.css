@@ -112,18 +112,22 @@ em{
 }
 #newsletter-form input{
   display: inline;
-  padding: 2px 0px;
+  padding: 4px 0px;
   text-indent: 5px;
   min-width: 100px;
   border:0;
-  background:#ccc;
   line-height: 1.3em;
+  color:black;
+  padding:6px 0;
+  letter-spacing:1px;
+  background:white;
   font-size: .6em;
   font-family: verdana, 'Whoismono', monospace;
 }
 #newsletter-form input.email{
-  background:#eee;
-  border:1px solid #eee;
+  padding:6px 0;
+  border:1px solid black;
+  width:260px;
 }
 
 @media only screen and (max-width: 1200px) {

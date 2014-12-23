@@ -73,7 +73,7 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
         <div class="response" id="mce-error-response" style="display:none"></div>
         <div class="response" id="mce-success-response" style="display:none"></div>
         <div style="position: absolute; left: -5000px;"><input type="text" name="b_475756c12dd6e1f054910142e_ad85720904" tabindex="-1" value=""></div>
-        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+        <input type="submit" value="➞ Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
       </form>
     </div>
   </header>
