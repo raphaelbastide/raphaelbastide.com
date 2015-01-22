@@ -77,7 +77,7 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
       </form>
     </div>
   </header>
-  <section id="suzanne">
+  <section id="diff">
     <h2>Exhibition with Daniel Eatock</h2>
     <p class="description">2015, at <a href="http://www.suzannegallery.com/">Suzanne Gallery</a> Brussels - starting february 19th</p>
   </section>
