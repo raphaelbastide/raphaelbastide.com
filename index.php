@@ -77,6 +77,10 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
       </form>
     </div>
   </header>
+  <section id="suzanne">
+    <h2>Exhibition with Daniel Eatock</h2>
+    <p class="description">2015, at <a href="http://www.suzannegallery.com/">Suzanne Gallery</a> Brussels - starting february 19th</p>
+  </section>
   <section id="very-slow">
     <h2><a target="_blank" href="http://raphaelbastide.com/very-slow-and-approximative-browsing-experience-provider/">very slow and approximative browsing experience provider</a></h2>
     <p class="description">2014, a long title for a speed project</p>
