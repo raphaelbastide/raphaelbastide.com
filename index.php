@@ -79,7 +79,7 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
   </header>
   <section id="diff">
     <h2>Infinite Reflected Transformations & Perception Possibilities</h2>
-    <p class="description">2015, Exhibition with Daniel Eatock at <a href="http://www.suzannegallery.com/">Suzanne Gallery</a> Brussels - starting february 19th</p>
+    <p class="description">2015, Exhibition with Daniel Eatock at <a href="http://www.suzannegallery.com/">Suzanne Gallery</a> Brussels<br>starting february 19th</p>
   </section>
   <section id="very-slow">
     <h2><a target="_blank" href="http://raphaelbastide.com/very-slow-and-approximative-browsing-experience-provider/">very slow and approximative browsing experience provider</a></h2>
