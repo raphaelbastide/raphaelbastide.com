@@ -193,6 +193,6 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
       <img src="public/projects/<?= $img->fullname ?>" id="<?= $img->name ?>-img" class="<?= $img->name ?>-img" width="<?= $img->width ?>" height="<?= $img->height ?>">
     <?php endforeach ?>
   </div>
-  <script src='public/js/bundle.js'></script>
 </body>
+<script src='public/js/bundle.js'></script>
 </html>
