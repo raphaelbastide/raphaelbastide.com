@@ -188,6 +188,7 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
     $images = getFromCache('images', function() {
       return getImages(__DIR__.'/public/projects');
     });
+    shuffle($images);
     foreach ($images as $img): ?>
       <img src="public/projects/<?= $img->fullname ?>" id="<?= $img->name ?>-img" class="<?= $img->name ?>-img" width="<?= $img->width ?>" height="<?= $img->height ?>">
     <?php endforeach ?>
