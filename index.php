@@ -78,8 +78,8 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
     </div>
   </header>
   <section id="diff">
-    <h2>Infinite Reflected Transformations & Perception Possibilities</h2>
-    <p class="description">2015, Solo exhibition at <a href="http://www.suzannegallery.com/">Suzanne Gallery</a> Brussels, starting february 19<sup>th</sup> to april 2<sup>nd</sup></p>
+    <h2><a target="_blank" href="http://raphaelbastide.com/diff/">Diff</a></h2>
+    <p class="description">2015, project shown during a solo exhibition at Suzanne Gallery Brussels</p>
   </section>
   <section id="very-slow">
     <h2><a target="_blank" href="http://raphaelbastide.com/very-slow-and-approximative-browsing-experience-provider/">very slow and approximative browsing experience provider</a></h2>
@@ -180,15 +180,7 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
       <li><a href="http://music.raphaelbastide.com">Music</a></li>
       <li><a href="http://notesondesign.org/raphael-bastide/">Portrait par Sylvia Fredriksson, 2014</a></li>
       <li><a href="https://github.com/raphaelbastide/vomimage">Vomimage, punk image gallery</a></li>
-      <li>Websites I designed:
-        <ul>
-          <li><a href="http://xpogallery.com/">XPO GALLERY</a></li>
-          <li><a href="http://cneai.com/evenement/">CNEAI : événements</a></li>
-          <li><a href="http://slanted.cc/">Slanted</a></li>
-          <li><a href="http://aude-debout.fr/">Aude Debout</a></li>
-          <li><a href="http://carolinelollo.fr/">Caroline Lollo</a></li>
-        </ul>
-      </li>
+      <li><a href="http://lab.raphaelbastide.com/minutehack/">Minute Hack</a></li>
     </ul>
   </section> -->
   <div class="images">
