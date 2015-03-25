@@ -66,7 +66,7 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
   <header>
     <h1>Raphaël Bastide</h1>
     <p>Art, code and graphic design.<br/>Uses, designs and modifies free software and alternative tools.</p>
-    <p><a href="mailto:bonjour@raphaelbastide.com">Email</a> - <span class="formBtn">Newsletter</span> - <a href="http://twitter.com/raphaelbastide">Twitter</a> -  <a href="https://github.com/raphaelbastide/">GitHub</a> - <a href="http://raphaelbastide.com/keys/bitcoin.txt">Bitcoin</a> - <a href="http://raphaelbastide.com/keys/pgp.txt">PGP</a><p>
+    <p><a href="mailto:bonjour@raphaelbastide.com">Email</a> - <span class="formBtn">Newsletter</span> - <a href="http://twitter.com/raphaelbastide">Twitter</a> - <a href="http://raphaelbastide.com/cv/">CV</a> -  <a href="https://github.com/raphaelbastide/">GitHub</a> - <a href="http://raphaelbastide.com/keys/bitcoin.txt">Bitcoin</a> - <a href="http://raphaelbastide.com/keys/pgp.txt">PGP</a><p>
     <div id="newsletter-form">
       <form action="//raphaelbastide.us5.list-manage.com/subscribe/post?u=475756c12dd6e1f054910142e&amp;id=ad85720904" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <input type="email" value="" name="EMAIL" placeholder="Email address" class="required email" id="mce-EMAIL">
@@ -79,7 +79,7 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
   </header>
   <section id="diff">
     <h2><a target="_blank" href="http://raphaelbastide.com/diff/">Diff</a></h2>
-    <p class="description">2015, project shown during a solo exhibition at Suzanne Gallery Brussels</p>
+    <p class="description">2015, project shown for a solo exhibition at Suzanne Gallery Brussels</p>
   </section>
   <section id="very-slow">
     <h2><a target="_blank" href="http://raphaelbastide.com/very-slow-and-approximative-browsing-experience-provider/">very slow and approximative browsing experience provider</a></h2>
