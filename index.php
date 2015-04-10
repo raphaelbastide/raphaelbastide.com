@@ -117,6 +117,10 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
     <h2><a target="_blank" href="http://raphaelbastide.com/webdesign/">Webdesign</a></h2>
     <p class="description">Selection of commissioned websites</p>
   </section>
+  <section id="logos">
+    <h2><a target="_blank" href="http://raphaelbastide.com/logos/">Logos</a></h2>
+    <p class="description">Selection of logos I designed</p>
+  </section>
   <section id="volumes">
     <h2>Volumes</h2>
     <p class="description">2012, exhibition with <a href="http://kevinbray.biz/">Kevin Bray</a> at 22 Rue Muller, Paris</p>
