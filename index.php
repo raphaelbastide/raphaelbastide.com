@@ -66,7 +66,13 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
   <header>
     <h1>Raphaël Bastide</h1>
     <p>Art, code and graphic design.<br/>Uses, designs and modifies free software and alternative tools.</p>
-    <p><a href="mailto:bonjour@raphaelbastide.com">Email</a> - <span class="formBtn">Newsletter</span> - <a href="http://twitter.com/raphaelbastide">Twitter</a> - <a href="http://raphaelbastide.com/cv/">CV</a> -  <a href="https://github.com/raphaelbastide/">GitHub</a> - <a href="http://raphaelbastide.com/keys/bitcoin.txt">Bitcoin</a> - <a href="http://raphaelbastide.com/keys/pgp.txt">PGP</a><p>
+    <p><a href="mailto:bonjour@raphaelbastide.com">Email</a> -
+      <span class="formBtn">Newsletter</span> -
+      <a href="http://twitter.com/raphaelbastide">Twitter</a> -
+      <a href="http://raphaelbastide.com/cv/" target="_blank"><abbr title="Curriculum vitae">CV</abbr></a> -
+      <a href="https://github.com/raphaelbastide/">GitHub</a> -
+      <a href="http://raphaelbastide.com/keys/bitcoin.txt" target="_blank"><abbr title="Cryptocurrency">Bitcoin</abbr></a> -
+      <a href="http://raphaelbastide.com/keys/pgp.txt" target="_blank"><abbr title="Pretty Good Privacy (my public key for encrypted emails)">PGP</abbr></a><p>
     <div id="newsletter-form">
       <form action="//raphaelbastide.us5.list-manage.com/subscribe/post?u=475756c12dd6e1f054910142e&amp;id=ad85720904" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <input type="email" value="" name="EMAIL" placeholder="Email address" class="required email" id="mce-EMAIL">
@@ -119,7 +125,7 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
   </section>
   <section id="logos">
     <h2><a target="_blank" href="http://raphaelbastide.com/logos/">Logos</a></h2>
-    <p class="description">Selection of logos I designed</p>
+    <p class="description">Selection of logos</p>
   </section>
   <section id="volumes">
     <h2>Volumes</h2>
