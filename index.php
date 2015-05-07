@@ -69,7 +69,7 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
     <p><a href="mailto:bonjour@raphaelbastide.com">Email</a> -
       <span class="formBtn">Newsletter</span> -
       <a href="http://twitter.com/raphaelbastide">Twitter</a> -
-      <a href="http://raphaelbastide.com/cv/" target="_blank"><abbr title="Curriculum vitae">CV</abbr></a> -
+      <a href="http://raphaelbastide.com/cv/" target="_blank">CV</a> -
       <a href="https://github.com/raphaelbastide/">GitHub</a> -
       <a href="http://raphaelbastide.com/keys/bitcoin.txt" target="_blank"><abbr title="Cryptocurrency">Bitcoin</abbr></a> -
       <a href="http://raphaelbastide.com/keys/pgp.txt" target="_blank"><abbr title="Pretty Good Privacy (my public key for encrypted emails)">PGP</abbr></a><p>
@@ -91,7 +91,7 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
     <h2><a target="_blank" href="http://raphaelbastide.com/very-slow-and-approximative-browsing-experience-provider/">very slow and approximative browsing experience provider</a></h2>
     <p class="description">2014, a long title for a speed project</p>
   </section>
-  <section id="marathonVTF">
+  <section id="marathonVTF" class="hide">
     <h2><a target="_blank" href="http://velvetyne.fr/marathongeneral/">Vagabondage Typographique Festif </a></h2>
     <p class="description">2014, libre typography workshop</p>
   </section>
