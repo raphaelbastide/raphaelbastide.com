@@ -26,6 +26,10 @@ section{
   margin-bottom: 1.2em;
 }
 
+section.hide{
+  display:none;
+}
+
 h1{
   margin-bottom: 10px;
 }

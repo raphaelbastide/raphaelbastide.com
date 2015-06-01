@@ -104,7 +104,7 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
     <p class="description">2014, online tool for font curration and classification</p>
   </section>
   <section id="esad2014">
-    <h2><a target="_blank" href="http://raphaelbastide.com/esad2014/">Objets Versionnés</a></h2>
+    <h2><a target="_blank" href="http://raphaelbastide.com/esad2014/">Installations Versionnées</a></h2>
     <p class="description">2014, workshop at ESAD Valence</p>
   </section>
   <section id="steps-mono">
