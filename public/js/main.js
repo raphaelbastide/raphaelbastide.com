@@ -40,6 +40,7 @@ function connect() {
   var currTxtId = currImgId.replace(/[-]\d+\b/g,'').replace('-img','');
   var currTxt = document.getElementById(currTxtId);
   var currImg = document.getElementById(cleanImgId);
+
   if (currImgId.length > 0 && currTxtId.length > 0){
     abconnect(currTxt, currImg);
   }

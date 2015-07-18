@@ -135,6 +135,10 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
     <h2><a target="_blank" href="http://lisezmoi.org/">LISEZMOI</a></h2>
     <p class="description">2012 to ∞, selection of projects made with <a href="http://pierrebertet.net/">Pierre Bertet</a></p>
   </section>
+  <section id="scrich">
+    <h2><a target="_blank" href="http://scri.ch/">scri.ch</a></h2>
+    <p class="description">A web app for drawing and sharing ideas, made with <a href="http://pierrebertet.net/">Pierre Bertet</a></p>
+  </section>
   <section id="parallax" class="hide">
     <h2><a target="_blank" href="http://raphaelbastide.com/parallax/">Parallax</a></h2>
     <p class="description">2012, Dirty Web design workshop at Festival de l’Affiche et du Graphisme in Chaumont, France</p>
