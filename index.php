@@ -131,11 +131,11 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
     <h2>Volumes</h2>
     <p class="description">2012, exhibition with <a href="http://kevinbray.biz/">Kevin Bray</a> at 22 Rue Muller, Paris</p>
   </section>
-  <section id="lisezmoi">
+  <section id="lisezmoi" class="hide">
     <h2><a target="_blank" href="http://lisezmoi.org/">LISEZMOI</a></h2>
     <p class="description">2012 to ∞, selection of projects made with <a href="http://pierrebertet.net/">Pierre Bertet</a></p>
   </section>
-  <section id="parallax">
+  <section id="parallax" class="hide">
     <h2><a target="_blank" href="http://raphaelbastide.com/parallax/">Parallax</a></h2>
     <p class="description">2012, Dirty Web design workshop at Festival de l’Affiche et du Graphisme in Chaumont, France</p>
   </section>
@@ -180,19 +180,6 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
     <p class="description">2008, persona, ongoing</p>
   </section>
   </main>
-  <!-- <section id="deeper" class="hide">
-    <h2><a target="_blank" href="">…</a></h2>
-    <ul>Bonus:
-      <li><a href="http://outilslibresalternatifs.org/">Outils Libres Alternatifs</a></li>
-      <li><a href="http://libreobjet.org">Libre Objet</a></li>
-      <li><a href="http://old.raphaelbastide.com">Old websites</a></li>
-      <li><a href="http://bm.raphaelbastide.com">Bookmarks</a></li>
-      <li><a href="http://music.raphaelbastide.com">Music</a></li>
-      <li><a href="http://notesondesign.org/raphael-bastide/">Portrait par Sylvia Fredriksson, 2014</a></li>
-      <li><a href="https://github.com/raphaelbastide/vomimage">Vomimage, punk image gallery</a></li>
-      <li><a href="http://lab.raphaelbastide.com/minutehack/">Minute Hack</a></li>
-    </ul>
-  </section> -->
   <div class="images">
     <?php
     $images = getFromCache('images', function() {
