@@ -88,7 +88,7 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
     <p class="description">2015, project shown for a solo exhibition at Suzanne Gallery Brussels</p>
   </section>
   <section id="sonavrek">
-    <h2><a target="_blank" href="http://raphaelbastide.com/sonavrek/">Sound diptich in the browser</a></h2>
+    <h2><a target="_blank" href="http://raphaelbastide.com/sonavrek/">Sonavrek</a></h2>
     <p class="description">2015, Sound diptych</p>
   </section>
   <section id="very-slow">
