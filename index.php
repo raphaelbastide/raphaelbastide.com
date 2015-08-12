@@ -87,6 +87,10 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
     <h2><a target="_blank" href="http://raphaelbastide.com/diff/">Diff</a></h2>
     <p class="description">2015, project shown for a solo exhibition at Suzanne Gallery Brussels</p>
   </section>
+  <section id="sonavrek">
+    <h2><a target="_blank" href="http://raphaelbastide.com/sonavrek/">Sound diptich in the browser</a></h2>
+    <p class="description">2015, Sound diptych</p>
+  </section>
   <section id="very-slow">
     <h2><a target="_blank" href="http://raphaelbastide.com/very-slow-and-approximative-browsing-experience-provider/">very slow and approximative browsing experience provider</a></h2>
     <p class="description">2014, a long title for a speed project</p>
