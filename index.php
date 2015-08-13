@@ -65,7 +65,7 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
 <main>
   <header>
     <h1>Raphaël Bastide</h1>
-    <p>Art, code and graphic design.<br/>Uses, designs and modifies free software and alternative tools.</p>
+    <p>Art, code and graphic design.</p>
     <p><a href="mailto:bonjour@raphaelbastide.com">Email</a> -
       <span class="formBtn">Newsletter</span> -
       <a href="http://twitter.com/raphaelbastide">Twitter</a> -
@@ -89,7 +89,7 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
   </section>
   <section id="sonavrek">
     <h2><a target="_blank" href="http://raphaelbastide.com/sonavrek/">Sonavrek</a></h2>
-    <p class="description">2015, Sound diptych</p>
+    <p class="description">2015, sound diptych</p>
   </section>
   <section id="very-slow">
     <h2><a target="_blank" href="http://raphaelbastide.com/very-slow-and-approximative-browsing-experience-provider/">very slow and approximative browsing experience provider</a></h2>
