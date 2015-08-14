@@ -91,6 +91,10 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
     <h2><a target="_blank" href="http://raphaelbastide.com/sonavrek/">Sonavrek</a></h2>
     <p class="description">2015, sound diptych</p>
   </section>
+  <section id="avara">
+    <h2><a target="_blank" href="http://raphaelbastide.com/avara/">Avara</a></h2>
+    <p class="description">2015, open source curveless font</p>
+  </section>
   <section id="very-slow">
     <h2><a target="_blank" href="http://raphaelbastide.com/very-slow-and-approximative-browsing-experience-provider/">very slow and approximative browsing experience provider</a></h2>
     <p class="description">2014, a long title for a speed project</p>
