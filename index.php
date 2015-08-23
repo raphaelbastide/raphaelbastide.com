@@ -89,7 +89,7 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
   </section>
   <section id="sonavrek">
     <h2><a target="_blank" href="http://raphaelbastide.com/sonavrek/">Sonavrek</a></h2>
-    <p class="description">2015, sound diptych</p>
+    <p class="description">2015, adaptative sound diptych</p>
   </section>
   <section id="avara">
     <h2><a target="_blank" href="http://raphaelbastide.com/avara/">Avara</a></h2>
@@ -164,7 +164,7 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
     <p class="description">2011, web app made with <a href="http://pierrebertet.net">Pierre Bertet</a></p>
   </section>
   <section id="terminal-grotesque">
-    <h2><a target="_blank" href="https://github.com/raphaelbastide/Terminal-Grotesque">Terminal Grotesque</a></h2>
+    <h2><a target="_blank" href="http://raphaelbastide.com/terminalgrotesque">Terminal Grotesque</a></h2>
     <p class="description">2011, open source font</p>
   </section>
   <section id="digimp">
