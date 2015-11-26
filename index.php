@@ -70,7 +70,7 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
       <span class="formBtn">Newsletter</span> -
       <a href="http://twitter.com/raphaelbastide">Twitter</a> -
       <a href="http://raphaelbastide.com/cv/" target="_blank">CV</a> -
-      <a href="https://github.com/raphaelbastide/">GitHub</a> -
+      <a href="http://code.raphaelbastide.com/">Code</a> -
       <a href="http://raphaelbastide.com/keys/bitcoin.txt" target="_blank"><abbr title="Cryptocurrency">Bitcoin</abbr></a> -
       <a href="http://raphaelbastide.com/keys/pgp.txt" target="_blank"><abbr title="Pretty Good Privacy (my public key for encrypted emails)">PGP</abbr></a><p>
     <div id="newsletter-form">
