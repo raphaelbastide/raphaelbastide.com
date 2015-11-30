@@ -131,7 +131,7 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
     <h2><a target="_blank" href="http://raphaelbastide.com/webdesign/">Webdesign</a></h2>
     <p class="description">Selection of commissioned websites</p>
   </section>
-  <section id="logos">
+  <section id="logos" class="hide">
     <h2><a target="_blank" href="http://raphaelbastide.com/logos/">Logos</a></h2>
     <p class="description">Selection of logos</p>
   </section>
