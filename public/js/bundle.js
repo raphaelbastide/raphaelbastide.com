@@ -17,7 +17,7 @@ function elementVect(elt, corner="bl") {
   }else if (corner === "tr") {
     return [Math.round(rect.right) , Math.round(rect.top) ];
   }else if (corner === "tl") {
-    return [Math.round(rect.left) , Math.round(rect.top) + 22 ];
+    return [Math.round(rect.left) , Math.round(rect.top) + 18 ];
   }else if (corner === "br") {
     return [Math.round(rect.right) , Math.round(rect.bottom) ];
   }
