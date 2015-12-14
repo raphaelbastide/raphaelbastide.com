@@ -39,11 +39,11 @@ h2{
   margin-bottom: 5px;
 }
 
-a, .formBtn{
+a{
   color:inherit;
-  text-decoration: none;
-  border:0;
-  border-bottom: 1px solid;
+}
+.formBtn{
+  text-decoration:underline;
   cursor:pointer;
 }
 a:visited, a:hover, .formBtn:hover{
@@ -111,13 +111,17 @@ abbr{
   padding:6px 0;
   letter-spacing:1px;
   background:white;
-  font-size: .6em;
+  font-size: .8em;
   font-family: liberation_sansregular;
 }
 #newsletter-form input.email{
   padding:6px 0;
   border:1px solid black;
   width:260px;
+}
+#newsletter-form .button{
+  font-family: liberation_sansregular;
+  font-size:18px;
 }
 
 @media only screen and (max-width: 1200px) {
