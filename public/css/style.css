@@ -8,7 +8,7 @@ table{border-collapse:collapse;border-spacing:0}
 
 body{
   padding:3%;
-  font:20px/1.3em 'linux_libertine', serif;
+  font:18px/1.1em 'liberation_sansregular', sans-serif;
 }
 
 header{
@@ -23,28 +23,20 @@ main{
 }
 
 section{
-  margin-bottom: 1.2em;
+  margin-bottom: 1.4em;
 }
 
 section.hide{
   display:none;
 }
 
+
 h1{
   margin-bottom: 10px;
 }
 
-header, h2{
-  transform:scale(1,1.09);
-  -webkit-transform:scale(1,1.09);
-  -moz-transform:scale(1,1.09);
-  -ms-transform:scale(1,1.09);
-  -o-transform:scale(1,1.09);
-  transform-origin: 0 0;
-}
-
 h2{
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 a, .formBtn{
@@ -55,18 +47,13 @@ a, .formBtn{
   cursor:pointer;
 }
 a:visited, a:hover, .formBtn:hover{
-  border-style: dotted;
-}
-a:visited{
-  color:#666;
+  border:0px;
 }
 em{
   font-style: italic;
 }
-.description{
-  font-size: .6em;
-  line-height: 1.3em;
-  font-family: verdana, 'Whoismono', monospace;
+abbr{
+  text-decoration:none;
 }
 .images{
   width: 500px;
@@ -94,7 +81,6 @@ em{
   font-size:1.3em;
   font-size: .6em;
   line-height: 1.3em;
-  font-family: verdana, 'Whoismono', monospace;
   display:inline;
 }
 #deeper a{
@@ -126,7 +112,7 @@ em{
   letter-spacing:1px;
   background:white;
   font-size: .6em;
-  font-family: verdana, 'Whoismono', monospace;
+  font-family: liberation_sansregular;
 }
 #newsletter-form input.email{
   padding:6px 0;

@@ -10,9 +10,17 @@ function createDiv(classname) {
   return div;
 }
 
-function elementVect(elt) {
+function elementVect(elt, corner="bl") {
   var rect = elt.getBoundingClientRect();
-  return [Math.round(rect.left) , Math.round(rect.bottom) ];
+  if (corner === "bl") {
+    return [Math.round(rect.left) , Math.round(rect.bottom) ];
+  }else if (corner === "tr") {
+    return [Math.round(rect.right) , Math.round(rect.top) ];
+  }else if (corner === "tl") {
+    return [Math.round(rect.left) , Math.round(rect.top) + 22 ];
+  }else if (corner === "br") {
+    return [Math.round(rect.right) , Math.round(rect.bottom) ];
+  }
 }
 
 function renderLine(line, vec1, vec2) {
@@ -44,8 +52,8 @@ function draw(cla, clb, update) {
         aVec = [0,0];
         bVec = [0,0];
       }else{
-        aVec = elementVect(a);
-        bVec = elementVect(b);
+        aVec = elementVect(a,'tl');
+        bVec = elementVect(b,'bl');
       }
     }
     renderLine(line, aVec, bVec);

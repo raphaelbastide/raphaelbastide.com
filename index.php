@@ -65,7 +65,7 @@ Source code: https://github.com/raphaelbastide/raphaelbastide.com
 <main>
   <header>
     <h1>Raphaël Bastide</h1>
-    <p>Art, code and graphic design.</p>
+    <p>Art, code and graphic design</p>
     <p><a href="mailto:bonjour@raphaelbastide.com">Email</a> -
       <span class="formBtn">Newsletter</span> -
       <a href="http://twitter.com/raphaelbastide">Twitter</a> -
